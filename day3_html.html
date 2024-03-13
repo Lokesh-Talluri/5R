@@ -1,0 +1,119 @@
+<!-- tables, rowspan, colspan, iframes, div, bdo, fav icon 
+    displaying icon, diiferent styling tags for a content -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../assets/Images/car.png" />
+    <title>HTML 05-03-2024</title>
+    <style>
+      table,
+      td,
+      th {
+        border: 5px solid greenyellow;
+        border-collapse: collapse;
+        height: 50px;
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>head 1</th>
+        <th>head 2</th>
+        <th>head 3</th>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center">data 1</td>
+        <td rowspan="4">data 2</td>
+        <td>data 3</td>
+      </tr>
+      <tr>
+        <td>data 1</td>
+        <td>data 2</td>
+        <td colspan="3">data 3</td>
+        <!-- <td>data 4</td>
+        <td>data 5</td> -->
+      </tr>
+      <tr>
+        <td>data 1</td>
+        <td>data 2</td>
+        <td>data 3</td>
+        <td>data 4</td>
+        <td>data 5</td>
+      </tr>
+      <tr>
+        <td>data 1</td>
+        <td>data 2</td>
+        <td>data 3</td>
+        <td>data 4</td>
+        <td>data 5</td>
+      </tr>
+    </table>
+    <iframe
+      src="https://www.10000coders.co/"
+      height="300px"
+      width="500px"
+    ></iframe>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.3019094716396!2d78.40212279999999!3d17.4930957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91625d9cd1ad%3A0x4455387ad24a675d!2s10000coders!5e0!3m2!1sen!2sin!4v1710056532828!5m2!1sen!2sin"
+      width="500"
+      height="300"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <iframe
+      width="500"
+      height="300"
+      src="https://www.youtube.com/embed/UfcAVejslrU?si=orMwFVwy0FnrRQvk"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <br />
+    <iframe name="myscreen" height="300" width="500"></iframe><br />
+    <a href="https://en.wikipedia.org/wiki/Cricket" target="myscreen"
+      >Cricket</a
+    >
+    <a href="https://en.wikipedia.org/wiki/Badminton" target="myscreen"
+      >Badminton</a
+    >
+    <a href="./day1_html.html" target="myscreen">day1_html</a>
+    <br />
+
+    <bdo dir="rtl">
+      <p>para 1</p>
+      <p>para 2</p>
+      <p>para 3</p>
+      <img src="../assets/Images/beach.jpg" height="100" width="100" />
+      <img src="../assets/Images/car.png" height="100" width="100" />
+    </bdo>
+
+    <p>
+      <span style="font-size: 80px">L</span>orem, ipsum
+      <span style="background-color: aqua">sit amet consec</span>tetur
+      adipisicing <mark>elit.Earum aliquid</mark> ipsam quod temporibus
+      <b>dolorem cum! </b> Accusamus libero,<strong
+        >modi corporis dolorum,</strong
+      >
+      odio iure <em>deleniti, obcaecati q</em> uaerat nostrum<del
+        >facilis saepe.</del
+      >
+    </p>
+    <div style="background-color: coral">
+      <p>para 1</p>
+      <p>para 2</p>
+      <p>para 3</p>
+    </div>
+    <div style="background-color: cornflowerblue">
+      <p>para 1</p>
+      <p>para 2</p>
+      <p>para 3</p>
+    </div>
+  </body>
+</html>
